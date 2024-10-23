@@ -1,0 +1,93 @@
+body{
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "ubuntu";
+    src: url(./Ubuntu/Ubuntu-Bold.ttf);
+}
+/* for footer */
+.container{
+    max-width:1170px;
+    
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #f2f2f2;
+margin-top: 190px;
+height: 800px;
+   
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    margin-top: 90px;
+}
+.footer-col h5{
+    font-size: 18px;
+    font-weight: 100;
+   
+    margin-bottom: 15px;
+    position: relative;
+    font-family: "ubuntu";
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    text-transform: capitalize;
+    color: #0000009E;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    text-decoration: underline;
+}
+.footer-col a img{
+    width: 98px;
+    height: 35px;
+}
+.last-line{
+    margin-top: 90px;
+    margin-left: 50px;
+    
+}
+.last-line a{
+    padding-left: 20px;
+    color: #0000009E;
+    text-decoration: none;
+    display: inline;
+    transition: all 0.3s ease;
+}
+.last-line a:hover{
+    text-decoration: underline;
+}
+.last-line p{
+    margin-top: 40px;
+    padding-left: 17px;
+}
+.last-line button{
+    margin-left: 165%;
+    padding: 15px 15px 18px 18px;
+    background-color: transparent;
+    border-color: orangered;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+.last-line button:hover{
+    background-color: orangered;
+}
