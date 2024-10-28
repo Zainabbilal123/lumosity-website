@@ -12,6 +12,73 @@ body{
     font-family: "ubuntu";
     src: url(./Ubuntu/Ubuntu-Bold.ttf);
 }
+/* for navbar  */
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+position: sticky;
+top: 0;
+z-index: 1;
+  background-color: aquamarine;
+
+}
+.navbar h2{
+    margin-right: 60%;
+    color: white;
+    padding-left: 10px;
+   
+}
+.navbar a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+}
+.navbar .loginbutton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-right: 10px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    text-transform: uppercase;
+
+}
+.navbar .startbutton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-right: 20px;
+    color: white;
+    background-color: orangered;
+    border: 2px solid orangered;
+    text-transform: uppercase;
+
+}
+@media only screen (min-width:780px) {
+    .navbar{
+        width:40px;
+       
+    }
+}
+
+
+
+
 /* for footer */
 .container{
     max-width:1170px;
@@ -90,4 +157,7 @@ height: 800px;
 }
 .last-line button:hover{
     background-color: orangered;
+}
+h2{
+    font-family: "ubuntu";
 }
